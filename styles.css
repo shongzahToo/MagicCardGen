@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(79, 79, 84);
+}
+
+#generate {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 30px;
+    background-color: rgb(190, 190, 255);
+    border: 3px solid rgb(25, 25, 109);
+    border-radius: 10px;
+}
+
+#card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 315px;
+    height: 440px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#name {
+    position: relative;
+    width: 295px;
+    height: 30px;
+    top: 10px;
+    left: 50%;
+    left: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#image {
+    position: relative;
+    width: 295px;
+    height: 165px;
+    top: 20px;
+    left: 50%;
+    left: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#typeLine {
+    position: relative;
+    width: 295px;
+    height: 30px;
+    top: 30px;
+    left: 50%;
+    left: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#abilities {
+    position: relative;
+    width: 295px;
+    height: 165px;
+    top: 40px;
+    left: 50%;
+    left: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#powerToughness {
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    bottom: 5px;
+    right: 5px;
+    background-color: white;
+    border-radius: 8px;
+    border:1px solid black;
+}
+
+#manaCost {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
